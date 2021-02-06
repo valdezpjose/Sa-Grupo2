@@ -1,3 +1,5 @@
+![Logo](Logo.png)
+
 # Diagrama de actividad de emisión de voto
 
 ## Descripción
@@ -13,5 +15,5 @@ En el sistema existen dos tipos de usuario, un administrador y los usuarios regu
 
 Al momento que un usuario seleccione una elección se debe de validar si el usuario está registrado debido a que el sistema solo permite las votaciones de usuarios registrados, en dado caso el usuario no está registrado se notifica que debe de registrarse para emitir su voto.
 
-Después se valida si el usuario es un usuario administrador o un usuario regular, en dado caso es un usuario administrador se muestra la opción de cargar un archivo que es el reporte de las votaciones de forma presencial, si es un usuario regular se valida si la elección esta activa, cuando la elección no está activa se notifica al usuario que la elección no está disponible, de lo contrario se despliega la vista de votación. Antes que el usuario envié la votación se realiza el proceso de validación de usuario, esto para garantizar seguridad para que otra persona ajena del usuario no pueda realizar su respectivo voto. Luego de validar su usuario o de terminar de cargar el archivo se genera un token para guardar el registro de votaciones que se realizó.
+Después se valida si el usuario es un usuario administrador o un usuario regular, en dado caso es un usuario administrador se muestra la opción de cargar un archivo que es el reporte de las votaciones de forma presencial, si es un usuario regular se valida si la elección esta activa, cuando la elección no está activa se notifica al usuario que la elección no está disponible, de lo contrario se despliega la vista de votación. Antes que el usuario envié la votación se realiza el proceso de validación de usuario, esto para garantizar seguridad para que otra persona ajena del usuario no pueda realizar su respectivo voto. Luego de validar su usuario se obtiene un token para guardar el registro de votaciones que se realizó.
 
