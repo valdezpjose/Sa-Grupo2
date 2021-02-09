@@ -6,18 +6,41 @@
 <br>
 **Nombre: Base de datos**
 
-+----------+----------+
-| Historia de Usuario
-+==========+==========+
-|Este 
-+----------+----------+
-+==========+==========+
-|Prioridad | Column 2 |
-+----------+----------+
-|Estimado  | Column 2 |
-+----------+----------+
-|Módulo    | Column 2 |
-+----------+----------+
+
+<table>
+<thead>
+	<tr>
+		<th>Historia de usuario</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Trata acerca de</td>
+	</tr>
+</tbody>
+</table>
+
+
+
+
+<table>
+<thead>
+	<tr>
+		<th>Prioridad</th>
+		<th>Estimado</th>
+		<th>Modulo</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Media</td>
+		<td>10 puntos</td>
+		<td>Sesión</td>
+	</tr>
+</tbody>
+</table>
+
+
 
 **Criterios de Aceptación**
 <br>
