@@ -142,6 +142,13 @@ El servicio debe tener la siguiente configuración:
 <tbody>
 	<tr>
 		<td>El usuario debe estar registrado y autenticado previamente</td> 
+    </tr>
+    <tr>
+        <td>Los resultados se mostrarán solmente en gráfica de pie y barras</td>
+    </tr> 
+    <tr>
+        <td>Por medio de un mapa se mostrarán los votos realizados en los diferentes depertamentos y municiopios</td>
+    </tr> 
 </tbody>
 </table>
 
