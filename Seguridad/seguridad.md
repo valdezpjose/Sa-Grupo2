@@ -1,4 +1,4 @@
-![Logo](Logo.png)
+![Logo](../Img/Logo.png)
 
 # Descripción de seguridad
 

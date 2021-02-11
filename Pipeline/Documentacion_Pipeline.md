@@ -1,4 +1,4 @@
-![Logo](Logo.png)
+![Logo](../Img/Logo.png)
 
 # Pipeline
 
@@ -6,7 +6,7 @@ Un pipeline es una nueva forma de trabajar en el mundo DevOps en la integración
 
 El pipeline que se estará utilizando se muestra a continuación.
 
-![Pipeline](Pipeline.png)
+![Pipeline](../Img/Pipeline.png)
 
 Un desarrollador genera líneas de código para una funcionalidad, al momento de finalizar esta funcionalidad se debe de comprobar si existe posibles errores en el código. Cuando el desarrollador realiza un Commit y sube cambios a la rama principal este activara un evento para que Jenkins empiece a ejecutar cada etapa. Las etapas utilizadas son build, test, build docker y deploy, estas se describirán a continuación.
 

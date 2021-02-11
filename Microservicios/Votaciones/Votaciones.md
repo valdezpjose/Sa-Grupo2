@@ -1,4 +1,4 @@
-![Logo](Logo.png)
+![Logo](../../Img/Logo.png)
 # Votaciones
 
 El módulo de votaciones puede ser accedido solamente por personas previamente registradas. El cual es un microservicio independiente encargado de recibir los votos de las personas en las distintas elecciones que pueden estar creadas así como la información general del voto, es decir, fecha, hora y localidad donde se realizó.
