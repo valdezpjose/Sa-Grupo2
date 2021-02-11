@@ -50,7 +50,7 @@ El servicio debe tener la siguiente configuración:
 <tbody>
 	<tr>
 	<td>Ruta</td>
-	<td>a definir</td>
+	<td>ivoting/auth</td>
 	</tr>
 	<tr>
 	<td>Método</td>
@@ -115,21 +115,21 @@ El servicio debe tener la siguiente configuración:
 </thead>
 <tbody>
 	<tr>
-		<td>Si la respuesta es correcta se dejará seguir a la cuenta del usuario.</td> 
-		<td>boolean</td>
-		<td>Recibe una respuesta "True" en un formato JSON.</td>
+		<td>Token</td> 
+		<td>string</td>
+		<td>Si la respuesta es correcta se devolvera el token JWT.</td>
 	</tr>
 		<tr>
-		<td>Si despúes de 3 intentos la información no es valida no se podrá ingresar a la cuenta y se tendrá que volver a tratar de ingresar en un periodo de X horas.</td> 
-		<td>boolean</td>
-		<td>Recibe una respuesta "False" en un formato JSON.</td>
+		<td>Status</td> 
+		<td>int</td>
+		<td>Este valor contiene el código de respuesta de la API.</td>
 	</tr>
 
 </tbody>
 </table>
 <br>
 
-**Código de respuesta fallida**
+**Código de respuesta fallida ([Lista de Códigos](https://developers.google.com/search/apis/indexing-api/v3/core-errors?hl=es-419))**
 <table>
 <thead>
 	<tr>
@@ -156,10 +156,7 @@ El servicio debe tener la siguiente configuración:
 </thead>
 <tbody>
 	<tr>
-		<td>Se espera que venga en Data el nombre de usuario y la contraseña</td> 
-	</tr>
-		<tr>
-		<td>La contraseña tenga un minímo de 8  caracteres</td> 
+		<td>Debe venir obligatoriamente los campos de Data, nombre de usuario y contraseña</td> 
 	</tr>
 
 </tbody>
