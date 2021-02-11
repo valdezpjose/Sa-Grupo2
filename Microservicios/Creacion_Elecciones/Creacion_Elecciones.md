@@ -1,4 +1,4 @@
-![Logo](../Logo.png)
+![Logo](../../Img/Logo.png)
 
 # Proyecto_SA_Grupo2
 
@@ -73,7 +73,7 @@ También se debe de ser posible agregar la metadata de una opción por ejemplo:
 
 A continuación se presenta un prototipo de como se vera la interfaz grafica para este microservicio.
 
-![Prototipo](Prototipo.png)
+![Prototipo](../../Img/Prototipo.png)
 
 ### Historias de usuario
 
@@ -83,4 +83,4 @@ A continuación se presenta un prototipo de como se vera la interfaz grafica par
 
 ### Diagrama de secuencia
 
-![DiagramaSecuencia](Diagrama%20de%20secuencia.png)
+![DiagramaSecuencia](../../Img/Diagrama_Secuencia.png)

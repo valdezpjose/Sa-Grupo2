@@ -1,4 +1,4 @@
-![Logo](Logo.png)
+![Logo](../../Img/Logo.png)
 # Resultados
 
 Servicio encargado de consultar en la base de datos el resultado de las diferentes elecciones.

@@ -1,4 +1,4 @@
-![Help Builder Web Site](../Logo.png)
+![Help Builder Web Site](../../Img/Logo.png)
 # Proyecto_SA_Grupo2
 ### Autenticación
 Este documento tiene el objetivo de:

@@ -1,4 +1,4 @@
-![Logo](Logo.png)
+![Logo](../Img/Logo.png)
 
 # Diagrama de microservicios
 
@@ -28,4 +28,4 @@ Autenticación: Toda persona que desea participar en una votación, debe ingresa
 ## Diagrama
 A continuación se presenta el diagrama de todos los microservicios.
 
-![microservicios](microservicios.png)
+![microservicios](../Img/Microservicios.png)
