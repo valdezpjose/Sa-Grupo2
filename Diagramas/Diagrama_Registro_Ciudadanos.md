@@ -1,6 +1,6 @@
 ![Help Builder Web Site](../Img/Logo.png)
 # Proyecto_SA_Grupo2
-### Sistema de registro de ciudadanos
+### Diagrama de Sistema de registro de ciudadanos
 Este documento tiene el objetivo de:
 <br>
 * Dar una explicación breve del diseño de registro de ciudadanos
