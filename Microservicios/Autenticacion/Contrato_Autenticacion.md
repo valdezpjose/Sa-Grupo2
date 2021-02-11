@@ -54,7 +54,7 @@ El servicio debe tener la siguiente configuración:
 	</tr>
 	<tr>
 	<td>Método</td>
-	<td>GET</td>
+	<td>POST</td>
 	</tr>
 	<tr>
 	<td>Formato de entrada</td>
@@ -75,30 +75,16 @@ El servicio debe tener la siguiente configuración:
 </thead>
 <tbody>
 	<tr>
-		<td>Correo</td> 
-		<td>string</td>
-		<td>Recibe el correo del usuario y se manda a corroborar con el microservicio de Base de datos de iVoting.</td>
+		<td>Content-Type</td> 
+		<td>Header</td>
+		<td>Cabecera que identifica el tipo de contenido que a mandar y recibir por la aplicación.</td>
 	</tr>
 		<tr>
-		<td>Contraseña</td> 
-		<td>string</td>
-		<td>Recibe la contraseña del usuario y se manda a corroborar con el microservicio de Base de datos de iVoting.</td>
+		<td>Data</td> 
+		<td>Body</td>
+		<td>Contiene los valores de las credenciales del usuario en formato JSON.</td>
 	</tr>
-	<tr>
-		<td>DPI</td> 
-		<td>string</td>
-		<td>Recibe el DPI del usuario y se envía al microservicio de RENAP para comprobar información.</td>
-	</tr>
-		<tr>
-		<td>Fecha de nacimiento</td> 
-		<td>string</td>
-		<td>Recibe la fecha de nacimiento del usuario y se envía al microservicio de RENAP para comprobar información. </td>
-	</tr>
-		<tr>
-		<td>Nombre de padre y madre</td> 
-		<td>string</td>
-		<td>Recibe el nombre del padre y madre del usuario y se envía al microservicio de RENAP para comprobar información.</td>
-	</tr>
+
 </tbody>
 </table>
 <br>
@@ -153,7 +139,7 @@ El servicio debe tener la siguiente configuración:
 </thead>
 <tbody>
 	<tr>
-		<td>403</td> 
+		<td>401</td> 
 		<td>Fallo en la autenticación, prohibido entrar</td>
 	</tr>
 
@@ -170,20 +156,10 @@ El servicio debe tener la siguiente configuración:
 </thead>
 <tbody>
 	<tr>
-		<td>El formato de las fechas debe ser DD-MM-AAAA</td> 
-		
-	</tr>	
-	<tr>
-		<td>El formato del correo debe de ser xxxx@xxxx.xxxx</td> 
-		
+		<td>Se espera que venga en Data el nombre de usuario y la contraseña</td> 
 	</tr>
-	<tr>
-		<td>Cuando se escriba la contraseña, puede verse solo si se da a un botón de mostrar contraseña</td> 
-		
-	</tr>
-	<tr>
-		<td>El nombre del padre y la madre debe de tener el formato Xxxx Xxxx</td> 
-		
+		<tr>
+		<td>La contraseña tenga un minímo de 8  caracteres</td> 
 	</tr>
 
 </tbody>
