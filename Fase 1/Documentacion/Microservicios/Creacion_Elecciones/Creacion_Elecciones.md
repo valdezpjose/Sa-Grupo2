@@ -81,6 +81,14 @@ A continuación se presenta un prototipo de como se vera la interfaz grafica par
 
 - COMO administrador QUIERO actualizar las elecciones PARA arreglar posibles errores de escritura o para agregar o eliminar opciones.
 
+### Casos de uso
+
+![CasoDeUso](../../Img/saproyectodiagramas-elecciones.png)
+
 ### Diagrama de secuencia
 
-![DiagramaSecuencia](../../Img/Diagrama_Secuencia.png)
+![DiagramaSecuencia](../../Img/saproyectodiagramas-crear.png)
+
+### Entidad Relación
+
+![ER](../../Img/saproyectodiagramas-dbElecciones.png)
